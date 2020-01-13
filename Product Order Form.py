@@ -23,7 +23,7 @@ def sql_connection():
 # def create_table(connection):
 #     try:
 #         cursor_obj = connection.cursor()
-#         cursor_obj.execute("CREATE TABLE product( first_name text, \
+#         cursor_obj.execute("CREATE TABLE IF NOT EXISTS product( first_name text, \
 #                        last_name text, \
 #                        address text, \
 #                        city text, \
